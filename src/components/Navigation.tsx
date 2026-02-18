@@ -29,11 +29,13 @@ const Navigation = ({ currentPage, onNavigate }: NavigationProps) => {
 lg:bg-transparent lg:border-none lg:backdrop-blur-none">
       <div className="container mx-auto px-6 lg:px-20 py-4 lg:py-8">
         <div className="flex items-center justify-between">
-          <div className="text-2xl lg:text-4xl font-bold">
+          <button 
+          onClick={() => onNavigate("home")}
+          className="text-2xl lg:text-4xl font-bold cursor-pointer">
             <span><img src="" alt="" /></span>
             <span className="text-white">@dimas</span>
             <span className="text-green-400">asna</span>
-          </div>
+          </button>
 
           <div className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (

@@ -1,73 +1,104 @@
-# React + TypeScript + Vite
+💼 Dimas Asna Nugraha – Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website showcasing my experience, projects, and expertise in Software Quality Assurance (SQA) and software development.
 
-Currently, two official plugins are available:
+👨‍💻 About This Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This website represents my professional profile as a Software Quality Assurance, highlighting:
 
-## React Compiler
+Professional experience
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Testing-focused projects
 
-## Expanding the ESLint configuration
+Technical skills
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Certifications
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Contact information
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+The main goal of this portfolio is to demonstrate my structured approach to quality assurance, testing strategy, and technical documentation.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🚀 Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+This project was built using modern frontend technologies:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+React
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Vite
+
+Tailwind CSS
+
+TypeScript / JavaScript
+
+Responsive Design Principles
+
+🧪 Featured QA Projects
+
+Some highlighted testing projects included in this portfolio:
+
+HiSocial Digital Solution
+End-to-end quality assurance including manual testing, cross-browser validation, and workflow automation.
+
+Gajihub Testing Project
+Manual testing for web and mobile platforms, covering functional, UI, and usability validation.
+
+RESTful-API.dev Testing
+API validation for CRUD operations, status codes, and error handling.
+
+DummyJSON API Testing
+Structured API testing covering response validation, payload accuracy, and parameter handling.
+
+📂 Project Structure
+src/
+ ├── components/
+ ├── pages/
+ ├── assets/
+ ├── styles/
+ └── main.jsx / main.tsx
+
+🛠 Installation & Setup
+
+To run this project locally:
+
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+
+# Navigate to project folder
+cd your-repo-name
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+
+Then open:
+
+http://localhost:5173
+
+🎯 Purpose
+
+This portfolio is designed to:
+
+Showcase structured testing methodology
+
+Demonstrate quality assurance mindset
+
+Present technical documentation capability
+
+Provide recruiters with clear insight into my QA skills
+
+📬 Contact
+
+If you would like to connect professionally:
+
+LinkedIn: (your link)
+
+Email: (your email)
+
+GitHub: (your github link)
+
+📄 License
+
+This project is open-source and available for learning and reference purposes.

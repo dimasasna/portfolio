@@ -15,8 +15,8 @@ const Projects = ({ }: ProjectsProps) => {
       description: 'Performed manual testing on HiSocial web using test cases documented in spreadsheets. Executed functional, UI, and usability tests. Reported bugs and collaborated with developers for resolution.',
       image: 'https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800',
       tags: ['Google Sheet', 'Chrome', 'Manual Testing', 'Test Cases'],
-      github: 'https://github.com',
-      demo: 'https://demo.com',
+      github: '',
+      demo: 'https://docs.google.com/spreadsheets/d/13C2x8j01niH7C5tAjhQ0Y7Dy7csOcSy31FjcybFkmLI/edit?gid=1288960438#gid=1288960438',
       status: 'completed' as const,
     },
     {
@@ -24,8 +24,8 @@ const Projects = ({ }: ProjectsProps) => {
       description: 'Conducted manual testing on the Gajihub website and mobile application based on structured test cases documented in spreadsheets. Performed functional, UI, and usability validations, and reported identified defects while working closely with developers to resolve issues.',
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
       tags: ['Google Sheet', 'Chrome', 'Manual Testing', 'Test Cases'],
-      github: 'https://github.com',
-      demo: 'https://demo.com',
+      github: '',
+      demo: 'https://docs.google.com/spreadsheets/d/1lFA4j30pWlB_Pczhf8NpUZlGlMdo-_wl3VrCUisBtGo/edit?gid=1288960438#gid=1288960438',
       status: 'completed' as const,
     },
     {
@@ -33,8 +33,8 @@ const Projects = ({ }: ProjectsProps) => {
       description: 'Executed API testing on DummyJSON to verify data accuracy, response structure, and endpoint performance. Designed test cases for various resources such as products and users, validating request parameters, response payloads, and error scenarios.',
       image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
       tags: ['Postman', 'API Testing', 'Test Cases', 'JSON'],
-      github: 'https://github.com',
-      demo: 'https://demo.com',
+      github: '',
+      demo: '',
       status: 'ongoing' as const,
     },
     {
@@ -42,8 +42,8 @@ const Projects = ({ }: ProjectsProps) => {
       description: 'Performed comprehensive API testing on multiple RESTful APIs using Postman and Newman. Validated endpoint responses, error handling, and data integrity across various HTTP methods.',
       image: 'https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=800',
       tags: ['Postman', 'API Testing', 'RESTful API'],
-      github: 'https://github.com',
-      demo: 'https://demo.com',
+      github: '',
+      demo: '',
       status: 'ongoing' as const,
     },
   ];

@@ -205,7 +205,7 @@ const Hero = ({ onNavigate }: HeroProps) => {
       <CVPreviewModal
         isOpen={isCVOpen}
         onClose={() => setIsCVOpen(false)}
-        cvUrl="https://drive.google.com/file/d/1e4SI_MS4ZxaUyL-ukNH1LJOd5ZAUblMD/preview"
+        cvUrl="https://drive.google.com/file/d/1Ti_hifjscaKtjxPg2rJanYvDqhaKJhTS/preview"
       />
     </section>
   );

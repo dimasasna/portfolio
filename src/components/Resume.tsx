@@ -31,9 +31,9 @@ const Resume = ({}: ResumeProps) => {
     {
       name: "MySKill Certified Software Quality Assurance",
       issuer: "MySKill",
-      period: "2026 - Present",
+      period: "2026",
       description: "Professional level certification for software quality assurance practices.",
-      link: "https://drive.google.com/your-link-here",
+      link: "https://drive.google.com/file/d/1LBtxP8ZlwN7R_8AFp11jmCIVUej-YHZc/preview",
     },
   ];
 
